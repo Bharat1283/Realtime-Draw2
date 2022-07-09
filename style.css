@@ -1,0 +1,44 @@
+.heading{
+    margin: 0px;
+    box-shadow: 3px 3px 3px rgb(255, 174, 0);
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+}
+.note{
+    color: black;
+}
+.copy_right_footer{
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    bottom: 0;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    position: fixed;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 205, 89);
+}
+
+canvas{
+    background-color: rgb(255, 255, 255); 
+    animation-name: canvas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 120px;   
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@keyframes canvas{
+    from{background-color: rgb(255, 174, 0);}
+    to{background-color: rgb(196, 186, 44);}
+    from{box-shadow: 10px 10px 40px 30px rgb(255, 0, 0);}
+    to{box-shadow: 10px 10px 40px 30px rgb(104, 19, 19);}
+}
